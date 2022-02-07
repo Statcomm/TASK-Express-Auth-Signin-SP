@@ -27,5 +27,6 @@ const userSchema = new Schema({
   lastName: {
     type: String,
   },
+  shopsowned: 
 });
 module.exports = model('User', userSchema);
